@@ -31,11 +31,8 @@ public class Fake2dArray<T> {
             return result;
         }
     }
-    HashMap<Node,T> hashMap = new HashMap<>();
-    public Fake2dArray()
-    {
+    private HashMap<Node,T> hashMap = new HashMap<>();
 
-    }
     public void set(int x,int y, T elt)
     {
         hashMap.put(new Node(x,y),elt);
